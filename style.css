@@ -1,0 +1,44 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #000;
+}
+ul
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+}
+ul li
+{
+    list-style: none;
+    transition: 0.5s;
+}
+ul li a
+{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul:hover li
+{
+    opacity: 0.1;
+}
+ul li:hover
+{
+    opacity: 1;
+}
+ul li:hover a
+{
+    color: rgb(0, 247, 255);
+}
